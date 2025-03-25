@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "build hash table",
+		"type": "shell",
+		"command": "C:/msys64/mingw64/bin/g++.exe",
+		"args": [
+		  "-std=c++11",
+		  "main.cpp",
+		  "HashTable.cpp",
+		  "-o",
+		  "main.exe"
+		],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		},
+		"problemMatcher": ["$gcc"]
+	  }
+	]
+  }
+  
